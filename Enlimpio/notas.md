@@ -22,3 +22,6 @@ INSERT INTO cuentas (DNI, PIN, NOMBRE, SALDO) value (74651221, 2205, 'Pablo Brun
 SELECT * FROM cuentas;
 
 SELECT IF (EXISTS(SELECT NOMBRE FROM cuentas WHERE DNI = 36398721), 1, 0);
+
+
+test de actualizacion
